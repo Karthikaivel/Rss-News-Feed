@@ -1,0 +1,30 @@
+page-feed-list {
+  .feed-list {
+    background: #d1ffdc;
+    .feed-article {
+      height: 80px;
+      background: #ffffff;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      border-top: 40px;
+      color: #000000;
+    }
+    ion-list > .item:first-child, ion-list > .item-wrapper:first-child .item {
+      border-top: 10px;
+    }
+    ion-list .item .item-inner {
+      border-bottom: 0px;
+    }
+    .article-title {
+      font-weight: bold;
+      margin-top:20px;
+    }
+  }
+ 
+  #feed-spinner {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    height: 100px;
+  }
+}
